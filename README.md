@@ -15,6 +15,7 @@
 		...
 	</body>
 	
+####On you script ready function:
 #####put the screens of you project on array object like this
 
 	var appScreens = [
