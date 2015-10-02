@@ -36,7 +36,7 @@ $(document).ready(function(){
 	
         var appScreens = [{Name:"<i class=\'fa fa-home\'></i> Screen One", Id:"screen1"},
 					 {Name:"Screen Two", Id:"screen2"},
-					 {Name:"Screen Three", Id:"Third Screen"},
+					 {Name:"Screen Three", Id:"screen3"},
 					 {Name:"The Last One", Id:"screen4"}
 					];
 		var info = {Name: "Flavio", Email:"flavio@xxxmail.com"};
