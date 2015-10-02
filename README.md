@@ -1,4 +1,4 @@
-#HybridAppNavigationDrawer
+#Hybrid App Navigation Drawer
 ##Hybrid App Navigation Drawer, for html/js/css mobile app
 
 ###creating the navigation drawer,
