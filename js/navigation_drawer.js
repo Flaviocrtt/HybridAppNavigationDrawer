@@ -12,7 +12,7 @@
 
     function menu(){
         
-        var atual = $("#navigation_dreawer").css("marginLeft");
+        var atual = $("#navigation_drawer").css("marginLeft");
         var marg = (atual == '-202px')?'0':'-202';
         jQueryMenu.animate({'marginLeft':marg}, 'fast');
         
@@ -29,8 +29,8 @@
 
     function TelaSelecionada(id){
         
-		$("#navigation_dreawer ul li").css("background-color","#272727");
-        $("#navigation_dreawer ul #nd_"+id).css("background-color","#444242");
+		$("#navigation_drawer ul li").css("background-color","#272727");
+        $("#navigation_drawer ul #nd_"+id).css("background-color","#444242");
     }
 
     function esconderMenu(){
@@ -105,7 +105,7 @@
 		}
         
         
-        var menulateral = document.getElementById('navigation_dreawer');
+        var menulateral = document.getElementById('navigation_drawer');
         menulateral.innerHTML = '<div id=InfoUsuario><p>'+info.Name+'</p>'+
 								'<p class="email">'+info.Email+'</p></div> <ul>'+
             					'<ul>'+itens+'</ul>';
@@ -115,7 +115,7 @@
 		
 //        let's start on the app.js ready function, 
 		
-        jQueryMenu = $("#navigation_dreawer");
+        jQueryMenu = $("#navigation_drawer");
         jQueryBackMenu = $("#back");
         var corpo = $("body");
 		

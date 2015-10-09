@@ -35,9 +35,9 @@ $(document).ready(function(){
 //	put the screens of you project, and the user name and email
 	
         var appScreens = [{Name:"<i class=\'fa fa-home\'></i> Screen One", Id:"screen1"},
-					 {Name:"Screen Two", Id:"screen2"},
-					 {Name:"Screen Three", Id:"screen3"},
-					 {Name:"The Last One", Id:"screen4"}
+                         {Name:"Screen Two", Id:"screen2"},
+                         {Name:"Screen Three", Id:"screen3"},
+                         {Name:"The Last One", Id:"screen4"}
 					];
 		var info = {Name: "Flavio", Email:"flavio@xxxmail.com"};
 	
@@ -46,7 +46,7 @@ $(document).ready(function(){
 	StartNavigationDrawer(appScreens, info);
 	
 //	dont forget this divs
-//	<div id="navigation_dreawer" onclick="esconderMenu()"></div>
+//	<div id="navigation_drawer" onclick="esconderMenu()"></div>
 //	<div id="back"></div>
 	
 //	and remember, it only works on smartphones, emulators or chrome f12 device mode

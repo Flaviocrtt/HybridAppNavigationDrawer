@@ -13,7 +13,7 @@
         display: none;
     } 
 
-    #navigation_dreawer{
+    #navigation_drawer{
         z-index: 12;
         width: 200px;
         height: 99%;
@@ -41,35 +41,35 @@
         font-size: 10pt;
         opacity: 0.8;
     }
-    #navigation_dreawer ul {
+    #navigation_drawer ul {
         height: calc(100% - 44px - 60px);
         overflow: auto;
 		list-style: none;
     }
-    #navigation_dreawer ul li{
+    #navigation_drawer ul li{
         border-bottom: 1px solid #f68121;
         padding-top: 12px;
         padding-bottom: 12px;
         vertical-align: bottom;
     }
 
-    #navigation_dreawer ul li a{
+    #navigation_drawer ul li a{
         padding-left: 10px;
         text-decoration: none;
         color: #444242; 
         vertical-align: middle;
     } 
-    #navigation_dreawer ul li a span{
+    #navigation_drawer ul li a span{
         color: /*#f68121*/white;
         font-size: 12pt;
     }
 
 /*
-    #navigation_dreawer ul li:active{
+    #navigation_drawer ul li:active{
         background-color: #444242;
     }
 */
-    #navigation_dreawer img{
+    #navigation_drawer img{
         width: 80%;
         padding-left: 10%;
         padding-right: 10%;
